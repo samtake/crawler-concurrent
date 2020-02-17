@@ -15,6 +15,7 @@ import (
 )
 
 
+//限制每秒10个请求
 var rateLimiter = time.Tick(100*time.Millisecond)
 
 
